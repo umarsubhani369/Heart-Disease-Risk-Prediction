@@ -1,35 +1,38 @@
 # 🫀 Heart Disease Risk Prediction System
 
-This web application predicts the likelihood of heart disease based on user inputs such as age, sex, chest pain type, cholesterol levels, and more. It uses a machine learning model trained on medical data to provide predictions with confidence scores.
+This web application predicts the likelihood of heart disease based on user inputs such as age, sex, chest pain type, cholesterol levels, and more. It uses a machine learning model trained on real medical data to provide predictions along with confidence scores.
 
 ## 🚀 Features
 
 - 🏥 Predicts heart disease risk with confidence
-- 📊 Uses a trained machine learning model (`model.pkl`)
-- 🔠 Categorical input encoding via `encoders.pkl`
+- 📊 Trained machine learning model (`model.pkl`)
+- 🔠 Label encoding for categorical inputs (`encoders.pkl`)
 - 💻 Built with Python and Flask
-- 🎨 Responsive and modern UI with HTML/CSS
-- 🧼 Input validation and error handling
-- 🔁 Auto-reset of form after each submission
+- 🎨 Clean, responsive medical-style UI with HTML/CSS
+- 🧼 Strong input validation and error handling
+- 🔁 Form resets after each prediction automatically
 
 ## 🧠 Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Python     | Backend & ML logic |
-| Flask      | Web framework |
-| HTML/CSS   | Frontend UI |
-| scikit-learn | Machine Learning |
-| NumPy & Pandas | Data processing |
-| joblib     | Model and encoder serialization |
+| Technology      | Purpose                           |
+|-----------------|-----------------------------------|
+| Python          | Backend & ML logic                |
+| Flask           | Web framework                     |
+| HTML/CSS        | Frontend UI                       |
+| scikit-learn    | Machine Learning                  |
+| NumPy & Pandas  | Data processing                   |
+| joblib          | Model and encoder serialization   |
 
 ## 📂 Files Included
 
-- `app.py`: Flask backend
+- `app.py`: Flask backend (routes, prediction logic, form handling)
+- `model.py`: Script used to train the ML model and save artifacts
 - `model.pkl`: Trained ML model
 - `encoders.pkl`: Label encoders for categorical fields
-- `templates/index.html`: UI with patient form and result
-- `requirements.txt`: Python dependencies
+- `Folder Structure`: Contain the sturcture of the folder
+- `uci.csv`: Dataset used for training the model
+- `templates/index.html`: Frontend UI with form and result display
+- `requirements.txt`: Python dependency list
 
 ## 🧪 How to Run Locally
 
@@ -38,6 +41,7 @@ This web application predicts the likelihood of heart disease based on user inpu
 ```bash
 git clone https://github.com/umarsubhani369/Heart-Disease-Risk-Prediction.git
 cd Heart-Disease-Risk-Prediction
+
 
 Install Requirements
 pip install -r requirements.txt
