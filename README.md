@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Risk Prediction System
+#  Heart Disease Risk Prediction System
 
 This web application predicts the likelihood of heart disease based on user inputs such as age, sex, chest pain type, cholesterol levels, and more. It uses a machine learning model trained on real medical data to provide predictions along with confidence scores.
 
